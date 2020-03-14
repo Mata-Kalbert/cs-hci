@@ -1,0 +1,264 @@
+body {
+    background-image: url('image/foothillm.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.title {
+    display: grid;
+    grid-template-columns: 10% auto;
+    padding-left: 30%;
+    color: rgb(94, 95, 95);
+}
+ul {
+    list-style-type: none;
+    background-color: #C2EBEF;
+   margin-top: 0;
+    padding: 2px;
+    
+    border-style: solid;
+    border-color:  rgb(137, 138, 138);
+
+}
+/*li {
+    float: right;
+    font-size: 1.2em;
+    padding-right: 13%;
+    margin: 10px;
+    color: rgb(89, 90, 90);
+    
+}*/
+.navbar {
+    overflow: hidden;
+    background-color: #C2EBEF;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 1.4rem;
+    color: rgb(89, 90, 90);
+    padding: 16px;
+    text-decoration: none;
+    margin-right: 10%;
+
+  }
+  
+  .dropdown {
+    overflow: hidden;
+    float: right;
+    margin-right:10%;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 1.4rem;  
+    border: none;
+    outline: none;
+    color: rgb(89, 90, 90);
+    background-color: inherit;
+    font-family: inherit;
+    padding: 16px;
+    
+  }
+  
+  .navbar a:hover{
+    background-color:rgb(245, 251, 252);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(233, 235, 245);
+    box-shadow:  rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }  
+
+
+h2 {
+    padding-left: 15%;
+    color: rgb(80, 88, 88);
+}
+.news {
+    background-color: #C2EBEF;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 37% 35% 21%;
+    margin-left: 15%;
+    padding: 15px 10px 0px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(165, 167, 167);
+    }
+input[type=submit] {
+float: right;
+font-size: 1.3rem;
+border-radius: 16px;
+padding: 3px 15px 3px 15px;
+background-color: #6CEADC;
+margin: 1% 13% 1% 0%;
+
+}
+input[type=submit]:hover{
+    background-color: rgb(42, 115, 211);
+    color: rgb(255, 255, 255);
+}
+input[type=submit]:active{
+    background-color: rgb(225, 230, 236);
+    color: rgb(46, 43, 43);
+}
+
+.hours{
+    background-color: #C2EBEF;
+    width:70%;
+    margin-left: 15%;
+    color: rgb(143, 145, 145);
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(137, 138, 138);
+}
+input[type=text]{
+    width: 60%;
+    border-radius: 5px;
+    margin: 6px 0px;
+    padding: 4px;
+}
+input[type=date]{
+    width: 60%;
+    border-radius: 5px;
+    margin: 8px 7px;
+    padding: 5px;
+}
+.contact{
+    background-color:#C2EBEF;
+    width:70%;
+    margin-left: 15%;
+    color: rgb(143, 145, 145);
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(137, 138, 138);
+}
+textarea {
+    width:65%;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 12%;
+}
+.newsletter{
+    background-color: #C2EBEF;
+    color: rgb(143, 145, 145);
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(137, 138, 138);
+    margin-right: 8%;
+    padding: 0 4% 3% 4%;
+    
+}
+.newsletter p {
+    font-size: .5rem;
+    margin: 0 auto;
+  
+}
+.newsletter h3{
+    font-size: .8rem;
+    text-align: center;
+    padding-top: 0;
+
+}
+.socialmedia{
+    
+    color: rgb(8, 8, 247);
+    padding: 0px 20px 0px 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+.socialmedia h3{
+    margin-top: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+button{
+float: right;
+font-size: .6rem;
+border-radius: 16px;
+background-color: #6CEADC;
+margin: 1%;
+
+}
+button:hover{
+    background-color: rgb(42, 115, 211);
+    color: rgb(255, 255, 255);
+}
+button:active{
+    background-color: rgb(225, 230, 236);
+    color: rgb(46, 43, 43);
+}
+
+/* this is link to the volunteer thank you page */
+.volunteer{
+    width:60%;
+    background-color: #C2EBEF;
+    color: rgb(118, 119, 119);
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 7%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(137, 138, 138);
+    
+}
+.volunteer p{
+    font-size: 1.1rem;
+}
+.newslist h4 {
+    color: #707070;
+}
+
+.newslist h3 {
+    color : #00416D;
+}
+
+.newslist p {
+    margin-bottom: 10%;
+}
+
+.newspagetitle {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.newslist {
+    background: #C2EBEF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 3px solid rgb(137, 138, 138);
+    border-radius: 20px;
+    opacity: 1;
+    padding: 1.5% 2%;
+    margin: 3% 5% 0 5%;
+}
+
